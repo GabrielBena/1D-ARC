@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=74.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simple_arc"
+version = "0.1.0"
+dependencies = [
+    "numpy", 
+    "pandas",
+    ]
+requires-python = ">=3.10"
+authors = [
+    { name="Elias Boutros Khalil"},
+]
+
+description = "1D Automata Rule Tasks"
+
+[tool.setuptools]
+packages = ["simple_arc"]
